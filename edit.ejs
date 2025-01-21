@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+    <div class="bg-blue-600">
+        <a class="text-blue-500"href="/">Go To Home</a>
+        <div class="form" p-10 text-white>
+            
+                <form action="/edit" method="post">
+                <input class="block px-3 py-5 bg-blue-200 mb-5 rounded-md " type="text" placeholder="Previous title" value="<%= filename%>"  name="oldfilename" readonly>
+                <input class="block px-3 py-5 bg-blue-500 rounded-md" type="text" placeholder="New Title"  name="newfilename">
+                <input  class="mt-2 bg-blue-600 px-5 py-2 rounded-md" type="submit" value="Done">
+            </form>
+        </div>
+    </div>
+</body>
+</html>
