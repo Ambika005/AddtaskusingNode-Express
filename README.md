@@ -3,7 +3,7 @@ Error Encountered:
 I faced an issue where using the disabled attribute prevented the input field's value from being included in the form's POST request. After troubleshooting, I discovered that using the readonly attribute instead resolves this issue, as it allows the field to remain non-editable while still including its value in the request.
 
 Solution Reference:
-This solution was learned from the Sheryians Coding School tutorial.
+This solution was referenced from the Sheryians Coding School tutorial  https://youtu.be/HXLDBqs5urw
 
 Current Features Implemented:
 
